@@ -25,7 +25,6 @@
     <div class="inner">
         <h1>{{page.title}}</h1>
         {% if page.tagline %}<h2>{{page.tagline}}</h2>{% endif %}
-        <a href="https://github.com/JV-ration{{site.baseurl}}" class="button"><small>View project on</small> GitHub</a>
     </div>
 </header>
 
@@ -37,14 +36,6 @@
         </section>
 
         <aside id="sidebar">
-            <a href="https://github.com/JV-ration{{site.baseurl}}/zipball/master" class="button">
-                <small>Download</small>
-                .zip file
-            </a>
-            <a href="https://github.com/JV-ration{{site.baseurl}}/tarball/master" class="button">
-                <small>Download</small>
-                .tar.gz file
-            </a>
 
             <p class="repo-owner">&nbsp;is maintained by <a href="http://jv-ration.com" title="JV-ration: evolution of Joint Vision"><img src="images/jv-ration-logo.png" width="94" height="15" alt="JV-ration logo"></a></p>
 
@@ -58,7 +49,7 @@
 </script>
 <script type="text/javascript">
     try {
-        var pageTracker = _gat._getTracker("UA-45119631-3");
+        var pageTracker = _gat._getTracker("{{site.googletracker}}");
         pageTracker._trackPageview();
     } catch(err) {}
 </script>
