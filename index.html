@@ -7,7 +7,7 @@ tagline: Development Environment Cross Examiner
 <h3>What is deCrex?</h3>
 
 <p><strong>deCrex</strong> is an intranet application, which learns content and configurations of software development environment systems
-    and then reports on their consistency and completeness. By doing this deCrex insures development <strong>environment
+    and then reports on their consistency and completeness. By doing this <strong>deCrex insures</strong> development <strong>environment
     enables teams</strong> to find the code, to build, to test and to deliver software</p>
 
 <h3>What does deCrex do?</h3>
@@ -20,8 +20,9 @@ The entire functionality of the application can be divided into three areas:
         This <strong>increases re-use</strong> of available code and <strong>reduces duplication</strong> of work</li>
     <li><strong>deCrex checks</strong> adherence of every source code repository, application module and build server to configured rules.
         This <strong>eases sharing</strong> among the development teams and <strong>insures integrity</strong> of environment configurations</li>
-    <li><strong>deCrex builds</strong> map of dependencies among scanned software modules.
-        This helps to
+    <li><strong>deCrex builds</strong> map of dependencies among scanned software modules and, to ease search and
+        categorization, it allows tagging of the modules and propagating the assigned tags either up or down the <strong>dependencies
+        tree</strong>. This helps to
         <ul>
             <li>asses impact of changes in any module on its dependents;</li>
             <li>determine products, which are affected by discovered defect or security/license vulnerability;</li>
@@ -38,6 +39,15 @@ systems. Even when the projects are being well documented, a harmless change to 
 documentation obsolete, information not available. In such situations it becomes very difficult to quickly respond 
 to a customer request to resolve a defect and to implement a new feature in an affected application.
 deCrex addresses these problems</p>
+
+<h3>What deCrex is not?</h3>
+
+<ul>
+    <li>deCrex scans descriptions of the modules, however it does not analyze the source code. It's not a replacement
+        for code quality management platforms like SonarQube</li>
+    <li>deCrex will help you to find dependents of a module with problematic license. However it's not a complete solution
+        for licenses management like Black Duck</li>
+</ul>
 
 <h3>Who do I talk to?</h3>
 
